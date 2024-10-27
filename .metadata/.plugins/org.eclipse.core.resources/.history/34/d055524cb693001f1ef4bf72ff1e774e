@@ -1,0 +1,17 @@
+package com.jpa.test;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+
+@SpringBootApplication
+public class Projectjpa1Application {
+
+	public static void main(String[] args) {
+		ConfigurableApplicationContext context = SpringApplication.run(Projectjpa1Application.class, args);
+		UserRepository userRepository= context.getBean(UserRepository.class);
+		User user=new User;
+		
+	}
+
+}
