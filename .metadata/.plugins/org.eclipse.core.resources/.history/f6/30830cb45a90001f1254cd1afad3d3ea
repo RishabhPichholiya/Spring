@@ -1,3 +1,0 @@
-spring.application.name=project2
-spring.mvc.views.prefix=/views/
-spring.mvc.views.suffix=.jsp 

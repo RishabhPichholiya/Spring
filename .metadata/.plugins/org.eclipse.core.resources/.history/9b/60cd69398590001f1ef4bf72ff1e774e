@@ -1,4 +1,0 @@
-spring.application.name=project2
-spring.mvc.view.prefix:/views/
-
-server.port =8001
